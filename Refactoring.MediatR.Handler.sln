@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A3A612A8-0559-4472-8626-DDE64C46AFAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refactoring.MediatR.Handler.Console", "src\Refactoring.MediatR.Handler.Console\Refactoring.MediatR.Handler.Console.csproj", "{DA28C285-CAAA-4766-97EC-9C8AF771BB08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refactoring.MediatR.Handler", "src\Refactoring.MediatR.Handler\Refactoring.MediatR.Handler.csproj", "{16FDC7B7-F05C-4ABE-88DB-583ECC6A61DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA28C285-CAAA-4766-97EC-9C8AF771BB08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA28C285-CAAA-4766-97EC-9C8AF771BB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA28C285-CAAA-4766-97EC-9C8AF771BB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA28C285-CAAA-4766-97EC-9C8AF771BB08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16FDC7B7-F05C-4ABE-88DB-583ECC6A61DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16FDC7B7-F05C-4ABE-88DB-583ECC6A61DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16FDC7B7-F05C-4ABE-88DB-583ECC6A61DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16FDC7B7-F05C-4ABE-88DB-583ECC6A61DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA28C285-CAAA-4766-97EC-9C8AF771BB08} = {A3A612A8-0559-4472-8626-DDE64C46AFAE}
+		{16FDC7B7-F05C-4ABE-88DB-583ECC6A61DB} = {A3A612A8-0559-4472-8626-DDE64C46AFAE}
+	EndGlobalSection
+EndGlobal
